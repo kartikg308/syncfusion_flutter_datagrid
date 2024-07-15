@@ -1868,8 +1868,8 @@ class _DataPagerChangeNotifier {
 class DataPagerThemeHelper {
   /// To Do
   DataPagerThemeHelper(SfDataPagerThemeData? sfDataPagerThemeData, ColorScheme? colorScheme, ThemeData themeData) {
-    brightness = sfDataPagerThemeData!.brightness ?? themeData.brightness;
-    backgroundColor = sfDataPagerThemeData.backgroundColor ?? colorScheme!.surface.withOpacity(0.12);
+    brightness = themeData.brightness;
+    backgroundColor = sfDataPagerThemeData!.backgroundColor ?? colorScheme!.surface.withOpacity(0.12);
     itemColor = sfDataPagerThemeData.itemColor ?? Colors.transparent;
     itemTextStyle = sfDataPagerThemeData.itemTextStyle ?? TextStyle(color: themeData.colorScheme.onSurface.withOpacity(0.6), fontSize: 14, fontFamily: 'Roboto', fontWeight: FontWeight.w400);
     selectedItemColor = sfDataPagerThemeData.selectedItemColor ?? colorScheme!.primary;

@@ -4113,8 +4113,8 @@ class DataGridThemeHelper {
   /// To Do
 
   DataGridThemeHelper(SfDataGridThemeData? dataGridThemeData, ColorScheme? colorScheme) {
-    brightness = dataGridThemeData!.brightness ?? colorScheme!.brightness;
-    headerColor = dataGridThemeData.headerColor ?? Colors.transparent.withOpacity(0.0001);
+    brightness = colorScheme!.brightness;
+    headerColor = dataGridThemeData!.headerColor ?? Colors.transparent.withOpacity(0.0001);
     gridLineColor = dataGridThemeData.gridLineColor ?? colorScheme!.onSurface.withOpacity(0.12);
     gridLineStrokeWidth = dataGridThemeData.gridLineStrokeWidth ?? 1;
     frozenPaneElevation = dataGridThemeData.frozenPaneElevation ?? 5;

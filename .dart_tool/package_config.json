@@ -123,7 +123,7 @@
     },
     {
       "name": "syncfusion_flutter_core",
-      "rootUri": "file:///C:/Users/pract/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_core-25.2.6",
+      "rootUri": "file:///C:/Users/pract/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_core-26.1.41",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -158,10 +158,10 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2024-06-03T06:46:47.110006Z",
+  "generated": "2024-07-15T13:22:24.921499Z",
   "generator": "pub",
-  "generatorVersion": "3.4.1",
+  "generatorVersion": "3.4.3",
   "flutterRoot": "file:///C:/Users/pract/flutter",
-  "flutterVersion": "3.22.1",
+  "flutterVersion": "3.22.2",
   "pubCache": "file:///C:/Users/pract/AppData/Local/Pub/Cache"
 }

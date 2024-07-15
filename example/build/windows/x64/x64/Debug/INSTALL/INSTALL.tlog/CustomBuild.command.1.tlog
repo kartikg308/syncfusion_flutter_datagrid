@@ -1,0 +1,10 @@
+^D:\WORK\SYNCFUSION_FLUTTER_DATAGRID\EXAMPLE\BUILD\WINDOWS\X64\CMAKEFILES\23B8733AD4A588A25775FD77DBDC384D\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
